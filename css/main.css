@@ -404,6 +404,7 @@
 .messenger-link {
   transition: var(--animation);
 }
+
 .phone-link:hover,
 .messenger-link:hover,
 .phone-link:focus,
@@ -426,6 +427,7 @@
 .social-link {
   transition: var(--animation);
 }
+
 .social-link:hover,
 .social-link:focus {
   color: var(--primary-light-text-color);
