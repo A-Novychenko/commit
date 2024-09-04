@@ -30,25 +30,27 @@
     <div class="page-container">
         <header class="page-header">
             <div class="container">
-                <nav class="nav-list">
-                    <ul class="list">
-                        <li><a href="#" class="link">Про нас</a></li>
+                <div class="header-wrap">
+                    <div class="header-inner">
+                        <nav class="main-nav">
+                            <ul class="nav-list list">
+                                <li><a href="#about" class="nav-link link">Про нас</a></li>
 
-                        <li><a href="#" class="link">Кейси</a></li>
+                                <li><a href="#cases" class="nav-link link">Кейси</a></li>
 
-                        <li><a href="#" class="link">Контакти</a></li>
-                    </ul>
+                                <li><a href="#contacts" class="nav-link link">Контакти</a></li>
+                            </ul>
+                        </nav>
 
-                </nav>
+                        <a href="index.html" class="logo-link" aria-label="Company logo with link to main page">
+                            <svg class="logo" width="306" height="36">
+                                <use href="./imgs/icons.svg#icon-logo"></use>
+                            </svg>
+                        </a>
 
-                <a href="index.html" class="logo-link" aria-label="Company logo with link to main page">
-                    <svg class="logo">
-                        <use href="./imgs/icons.svg#icon-logo"></use>
-                    </svg>
-                </a>
-
-                <button class="header-order-btn" type="button">Замовити</button>
-
+                        <button class="header-order-btn" type="button">Замовити</button>
+                    </div>
+                </div>
             </div>
         </header>
 
@@ -56,88 +58,147 @@
 
             <section class="hero">
                 <div class="container">
-                    <h1 class="main-title">Сайти, що втілюють ваші ідеї</h1>
+                    <div class="hero-box">
+                        <h1 class="main-title">Сайти, що втілюють ваші ідеї</h1>
 
-                    <p class="main-label">Ми спеціалізуємося на розробці, що поєднує передові технології та експертизи
-                    </p>
+                        <p class="main-label">Ми спеціалізуємося на розробці, що поєднує передові технології та
+                            експертизи
+                        </p>
+                    </div>
                 </div>
             </section>
 
-            <section class="about">
+            <section class="about" id="about">
                 <div class="container">
-                    <h2 class="title">Про нас</h2>
+                    <div class="section-header">
+                        <h2 class="title about-title">Про нас</h2>
 
-                    <p class="label">Індивідуальний підхід та гнучкість для створення цифрових рішень</p>
+                        <p class="label about-label">Індивідуальний підхід та гнучкість для створення цифрових рішень
+                        </p>
 
-                    <p class="description">Наша команда працює над тим, щоб кожне рішення було максимально адаптивним,
-                        інтуїтивним і орієнтованим на вашого
-                        кінцевого користувача.</p>
+                        <p class="description about-description">Наша команда працює над тим, щоб кожне рішення було
+                            максимально
+                            адаптивним,
+                            інтуїтивним і орієнтованим на вашого
+                            кінцевого користувача.</p>
+                    </div>
 
-                    <ul class="about-advantages-list list">
-                        <li class="about-advantages-item">
-                            <p class="about-advantages"><span class="about-advantages-accent">1250+</span>виконаних
-                                проектів</p>
-                        </li>
+                    <div class="about-advantages-wrap">
+                        <ul class="about-advantages-list list">
+                            <li class="about-advantages-item">
+                                <p class="about-advantages"><span class="about-advantages-accent">1250+</span>виконаних
+                                    проектів</p>
+                            </li>
 
-                        <li class="about-advantages-item">
-                            <p class="about-advantages"><span class="about-advantages-accent">10mln+</span>рядків коду
-                            </p>
-                        </li>
+                            <li class="about-advantages-item">
+                                <p class="about-advantages"><span class="about-advantages-accent">10mln+</span>рядків
+                                    коду
+                                </p>
+                            </li>
 
-                        <li class="about-advantages-item">
-                            <p class="about-advantages"><span class="about-advantages-accent">99%</span>задоволених
-                                клієнтів</p>
-                        </li>
+                            <li class="about-advantages-item">
+                                <p class="about-advantages"><span class="about-advantages-accent">99%</span>задоволених
+                                    клієнтів</p>
+                            </li>
 
-                        <li class="about-advantages-item">
-                            <p class="about-advantages"><span class="about-advantages-accent">85%</span>зростання
-                                бізнесу</p>
-                        </li>
-                    </ul>
+                            <li class="about-advantages-item">
+                                <p class="about-advantages"><span class="about-advantages-accent">85%</span>зростання
+                                    бізнесу</p>
+                            </li>
+                        </ul>
+                    </div>
 
                 </div>
             </section>
 
-            <section class="cases">
+            <section class="cases" id="cases">
                 <div class="container">
-                    <h2 class="title">кейси</h2>
+                    <div class="section-header">
+                        <h2 class="title cases-title">кейси</h2>
 
-                    <p class="label">Реалізовані ідеї наших клієнтів</p>
+                        <p class="label cases-label">Реалізовані ідеї наших клієнтів</p>
 
-                    <p class="description">Мрія створювати індивідуальні рішення, надаючи можливість реалізувати
-                        потенціал у цифровому світі, втілилась в наших
-                        кейсах. Ми віримо, що кожен бізнес унікальний, і допомагаємо розкрити це через вебсайти та
-                        онлайн-платформи.</p>
+                        <p class="description cases-description">Мрія створювати індивідуальні рішення, надаючи
+                            можливість реалізувати
+                            потенціал у цифровому світі, втілилась в наших
+                            кейсах. Ми віримо, що кожен бізнес унікальний, і допомагаємо розкрити це через вебсайти та
+                            онлайн-платформи.</p>
+                    </div>
 
                     <div class="slider">
                         <div class="slide">
-                            <h3 class="slider-title">250+ Корпоративних сайтів</h3>
+                            <div class="slide-content">
+                                <h3 class="slider-title">250+ Корпоративних сайтів</h3>
 
-                            <ul class="cases-list">
-                                <li class="case">
-                                    <p class="case-name">стартапи</p>
-                                </li>
+                                <ul class="cases-list list">
+                                    <li class="case">
+                                        <p class="case-name">
+                                            <svg class="case-icon" width="12" height="12">
+                                                <use href="./imgs/icons.svg#icon-circle"></use>
+                                            </svg>
+                                            стартапи
+                                        </p>
+                                    </li>
 
-                                <li class="case">
-                                    <p class="case-name">фінансові та юридичні послуги</p>
-                                </li>
+                                    <li class="case">
+                                        <p class="case-name">
+                                            <svg class="case-icon" width="12" height="12">
+                                                <use href="./imgs/icons.svg#icon-circle"></use>
+                                            </svg>
+                                            фінансові та юридичні послуги
+                                        </p>
+                                    </li>
 
-                                <li class="case">
-                                    <p class="case-name">медичні послуги</p>
-                                </li>
+                                    <li class="case">
+                                        <p class="case-name">
+                                            <svg class="case-icon" width="12" height="12">
+                                                <use href="./imgs/icons.svg#icon-circle"></use>
+                                            </svg>
+                                            медичні послуги
+                                        </p>
+                                    </li>
 
-                                <li class="case">
-                                    <p class="case-name">бізнес-конференції</p>
-                                </li>
+                                    <li class="case">
+                                        <p class="case-name">
+                                            <svg class="case-icon" width="12" height="12">
+                                                <use href="./imgs/icons.svg#icon-circle"></use>
+                                            </svg>
+                                            бізнес-конференції
+                                        </p>
+                                    </li>
 
-                                <li class="case">
-                                    <p class="case-name">туристичні послуги</p>
-                                </li>
+                                    <li class="case">
+                                        <p class="case-name">
+                                            <svg class="case-icon" width="12" height="12">
+                                                <use href="./imgs/icons.svg#icon-circle"></use>
+                                            </svg>
+                                            туристичні послуги
+                                        </p>
+                                    </li>
 
-                                <li class="case">
-                                    <p class="case-name">сільськогосподарська продукція</p>
-                                </li>
-                            </ul>
+                                    <li class="case">
+                                        <p class="case-name">
+                                            <svg class="case-icon" width="12" height="12">
+                                                <use href="./imgs/icons.svg#icon-circle"></use>
+                                            </svg>
+                                            сільськогосподарська продукція
+                                        </p>
+                                    </li>
+                                </ul>
+                            </div>
+
+                            <button class="left-arrow controls-slider" type="button" aria-label="swipe to left slide">
+                                <svg class="arrow-left-icon" width="24" height="24">
+                                    <use href="./imgs/icons.svg#icon-arrow"></use>
+                                </svg>
+                            </button>
+
+                            <button class="right-arrow controls-slider" type="button" aria-label="swipe to right slide">
+                                <svg class="arrow-right-icon" width="24" height="24">
+                                    <use href="./imgs/icons.svg#icon-arrow"></use>
+                                </svg>
+                            </button>
+
                         </div>
                     </div>
                 </div>
@@ -148,15 +209,17 @@
         <footer class="page-footer">
             <div class="container">
                 <div class="footer-top">
-                    <a href="index.html" class="logo-link" aria-label="Company logo with link to main page">
-                        <svg class="logo">
-                            <use href="./imgs/icons.svg#icon-logo"></use>
-                        </svg>
-                    </a>
+                    <div class="promo"><a href="index.html" class="logo-link logo-link-footer"
+                            aria-label="Company logo with link to main page">
+                            <svg class="logo" width="169" height="20">
+                                <use href="./imgs/icons.svg#icon-logo"></use>
+                            </svg>
+                        </a>
 
-                    <p class="footer-slogan">Комітимо мрії в реальність</p>
+                        <p class="footer-slogan">Комітимо мрії в реальність</p>
+                    </div>
 
-                    <address class="contacts">
+                    <address class="contacts" id="contacts">
                         <div>
                             <p class="contacts-subtitle">Адреса</p>
                             <p class="contacts-address">Київ, Україна <br>
@@ -169,37 +232,38 @@
 
                             <ul class="phones-list list">
                                 <li class="phone">
-                                    <a href="tel:+380980013939" class="phone-link">38 098-001-39-39</a>
+                                    <a href="tel:+380980013939" class="phone-link link">+38 098-001-39-39</a>
                                 </li>
                                 <li class="phone">
-                                    <a href="tel:+380930013939" class="phone-link">+38 093-001-39-39</a>
+                                    <a href="tel:+380930013939" class="phone-link link">+38 093-001-39-39</a>
                                 </li>
                                 <li class="phone">
-                                    <a href="tel:+380660013939" class="phone-link">+38 066-001-39-39</a>
+                                    <a href="tel:+380660013939" class="phone-link link">+38 066-001-39-39</a>
                                 </li>
 
                             </ul>
                         </div>
 
                         <div>
-                            <p class="messengers-list">Месенджери</p>
+                            <p class="contacts-subtitle">Месенджери</p>
 
                             <ul class="messengers-list list">
                                 <li class="messenger">
                                     <p class="messenger-name">Email:
-                                        <a href="mailto:mail@mail.com" class="messenger-link">gmail</a>
+                                        <a href="mailto:mail@mail.com" class="messenger-link link">gmail</a>
                                     </p>
                                 </li>
 
                                 <li class="messenger">
                                     <p class="messenger-name">Telegram:
-                                        <a href="https://t.me/" class="messenger-link">sales</a>
+                                        <a href="https://t.me/" class="messenger-link link">sales</a>
                                     </p>
                                 </li>
 
                                 <li class="messenger">
                                     <p class="messenger-name">Viber:
-                                        <a href="viber://chat?number=%2B380660013939/" class="messenger-link">sales</a>
+                                        <a href="viber://chat?number=%2B380660013939/"
+                                            class="messenger-link link">sales</a>
                                     </p>
                                 </li>
                             </ul>
@@ -212,7 +276,8 @@
 
                     <ul class="social-list list">
                         <li class="social-item">
-                            <a href="https://www.linkedin.com/" class="social-link" aria-label="linkedin link">
+                            <a href="https://www.linkedin.com/" class="social-link link" aria-label="linkedin link"
+                                title="linkedin" target="_blank" rel="noopener nofollow">
                                 <span class="visually-hidden">linkedin</span>
 
                                 <svg class="social-icon" width="19" height="19">
@@ -222,7 +287,8 @@
                         </li>
 
                         <li class="social-item">
-                            <a href="https://www.instagram.com/" class="social-link" aria-label="instagram link">
+                            <a href="https://www.instagram.com/" class="social-link link" aria-label="instagram link"
+                                title="instagram" target="_blank" rel="noopener nofollow">
                                 <span class="visually-hidden">instagram</span>
 
                                 <svg class="social-icon" width="19" height="19">
@@ -232,7 +298,8 @@
                         </li>
 
                         <li class="social-item">
-                            <a href="https://www.facebook.com/" class="social-link" aria-label="facebook link">
+                            <a href="https://www.facebook.com/" class="social-link link" aria-label="facebook link"
+                                title="facebook" target="_blank" rel="noopener nofollow">
                                 <span class="visually-hidden">facebook</span>
 
                                 <svg class="social-icon" width="19" height="19">

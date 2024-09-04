@@ -1,24 +1,19 @@
 :root {
-  --primary-text-color: #171313;
-
-  /* --secondary-text-color: #2e2f42; */
-  /* --light-text-color: #ffffff; */
-  /* --light-invercion-text: #f4f4fd; */
+  --primary-dark-text-color: #171313;
+  --primary-dark-text-color-08: rgba(23, 19, 19, 0.8);
+  --secondary-dark-text-color: #606060;
+  --secondary-light-text-color: #ffffff;
+  --primary-light-text-color: #f7f5f5;
+  --primary-light-text-color-06: rgba(247, 245, 245, 0.6);
 
   --primary-bg-color: #ffffff;
-  /* --secondary-bg-color: #f4f4fd; */
-  /* --dark-bg-color: #2e2f42; */
-  /* --backdrop-bg: rgba(46, 47, 66, 0.4); */
-  /* --modal-bg: #fcfcfc; */
+  --secondary-bg-color: #f7f5f5;
+  --dark-bg-color: #171313;
+  --scrollbar-bg: #efefef;
 
-  /* --accent-color: #4d5ae5; */
-  /* --accent-color-dark: #404bbf; */
-  /* --accent-color-socials: #31d0aa; */
+  --accent-color: #e3000b;
 
-  /* --border-light-color: #e7e9fc; */
-  /* --border-slate-color: #8e8f99; */
-
-  /* --overlay-color: rgba(46, 47, 66, 0.7); */
+  --border-dark-color: #606060;
 
   --animation: all 0.3s linear;
 }
@@ -30,7 +25,7 @@ html {
 body {
   background-color: var(--primary-bg-color);
 
-  color: var(--primary-text-color);
+  color: var(--primary-dark-text-color);
   font-family: "Multica-Pro", sans-serif;
   font-weight: 600;
 
@@ -92,9 +87,9 @@ main {
 }
 
 .container {
-  max-width: 1400px;
-  padding-left: 40px;
-  padding-right: 40px;
+  max-width: 1440px;
+  padding-left: 20px;
+  padding-right: 20px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -106,4 +101,50 @@ main {
 .link {
   color: currentColor;
   text-decoration: none;
+}
+
+.section-header {
+  display: flex;
+  align-items: flex-start;
+  column-gap: 80px;
+  padding: 80px 40px;
+}
+
+.title {
+  display: flex;
+  column-gap: 24px;
+  align-items: center;
+
+  color: var(--accent-color);
+  font-family: "Transforma-Mix", sans-serif;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 1.5;
+  text-transform: uppercase;
+}
+
+.title::before {
+  content: "";
+
+  flex-shrink: 0;
+  width: 16px;
+  height: 34px;
+
+  background-image: url("../imgs/chevron-red.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.label {
+  color: var(--primary-dark-text-color);
+  font-size: 48px;
+  line-height: 1;
+}
+
+.description {
+  color: var(--secondary-dark-text-color);
+  font-family: "Darker Grotesque", sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.35;
 }
