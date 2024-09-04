@@ -1,0 +1,109 @@
+:root {
+  --primary-text-color: #171313;
+
+  /* --secondary-text-color: #2e2f42; */
+  /* --light-text-color: #ffffff; */
+  /* --light-invercion-text: #f4f4fd; */
+
+  --primary-bg-color: #ffffff;
+  /* --secondary-bg-color: #f4f4fd; */
+  /* --dark-bg-color: #2e2f42; */
+  /* --backdrop-bg: rgba(46, 47, 66, 0.4); */
+  /* --modal-bg: #fcfcfc; */
+
+  /* --accent-color: #4d5ae5; */
+  /* --accent-color-dark: #404bbf; */
+  /* --accent-color-socials: #31d0aa; */
+
+  /* --border-light-color: #e7e9fc; */
+  /* --border-slate-color: #8e8f99; */
+
+  /* --overlay-color: rgba(46, 47, 66, 0.7); */
+
+  --animation: all 0.3s linear;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: var(--primary-bg-color);
+
+  color: var(--primary-text-color);
+  font-family: "Multica-Pro", sans-serif;
+  font-weight: 600;
+
+  /* font-family: "Brotesk", sans-serif; */
+  /* font-family: "Brotesk", sans-serif; */
+  /* font-family: "Darker Grotesque", sans-serif; */
+  /* font-family: "Transforma-Mix", sans-serif; */
+  /* font-family: "DM Sans", sans-serif; */
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+ul,
+ol {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+button {
+  cursor: pointer;
+}
+
+main {
+  flex-grow: 1;
+}
+
+.page-container {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.visually-hidden {
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  margin: -1px;
+}
+
+.container {
+  max-width: 1400px;
+  padding-left: 40px;
+  padding-right: 40px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.list {
+  list-style-type: none;
+}
+
+.link {
+  color: currentColor;
+  text-decoration: none;
+}

@@ -1,0 +1,20 @@
+@font-face {
+  font-family: "Multica-Pro";
+  src: url("./Mustica-Pro-Semibold.otf") format("truetype");
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Brotesk";
+  src: url("./Brotesk-SemiBold.otf") format("truetype");
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Transforma-Mix";
+  src: url("./Transforma-Mix-SemiBold.ttf") format("truetype");
+  font-weight: 600;
+  font-style: normal;
+}
