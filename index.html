@@ -19,9 +19,10 @@
     <link
         href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Darker+Grotesque:wght@300..900&display=swap"
         rel="stylesheet">
-
     <link rel="stylesheet" href="./fonts/fonts.css">
+
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/modern-normalize@2.0.0/modern-normalize.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
     <link rel="stylesheet" href="./css/common.css">
     <link rel="stylesheet" href="./css/main.css">
 </head>
@@ -42,7 +43,13 @@
                             </ul>
                         </nav>
 
-                        <a href="index.html" class="logo-link" aria-label="Company logo with link to main page">
+                        <button class="header-menu-btn" type="button" aria-label="open menu" data-open-menu>
+                            <svg class="menu-icon" width="32" height="32">
+                                <use href="./imgs//icons.svg#icon-menu"></use>
+                            </svg>
+                        </button>
+
+                        <a href="index.html" class="logo-link link" aria-label="Company logo with link to main page">
                             <svg class="logo" width="306" height="36">
                                 <use href="./imgs/icons.svg#icon-logo"></use>
                             </svg>
@@ -58,12 +65,14 @@
 
             <section class="hero">
                 <div class="container">
-                    <div class="hero-box">
-                        <h1 class="main-title">Сайти, що втілюють ваші ідеї</h1>
+                    <div class="hero-wrap">
+                        <div class="hero-box">
+                            <h1 class="main-title">Сайти, що втілюють ваші ідеї</h1>
 
-                        <p class="main-label">Ми спеціалізуємося на розробці, що поєднує передові технології та
-                            експертизи
-                        </p>
+                            <p class="main-label">Ми спеціалізуємося на розробці, що поєднує передові технології та
+                                експертизи
+                            </p>
+                        </div>
                     </div>
                 </div>
             </section>
@@ -125,81 +134,138 @@
                             онлайн-платформи.</p>
                     </div>
 
-                    <div class="slider">
-                        <div class="slide">
-                            <div class="slide-content">
-                                <h3 class="slider-title">250+ Корпоративних сайтів</h3>
+                    <div class="swiper slider">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide slide">
+                                <div class="slide-content">
+                                    <h3 class="slider-title">250+ Корпоративних сайтів</h3>
 
-                                <ul class="cases-list list">
-                                    <li class="case">
-                                        <p class="case-name">
-                                            <svg class="case-icon" width="12" height="12">
-                                                <use href="./imgs/icons.svg#icon-circle"></use>
-                                            </svg>
-                                            стартапи
-                                        </p>
-                                    </li>
+                                    <ul class="cases-list list">
+                                        <li class="case-item">
+                                            <p class="case-name">
+                                                <svg class="case-icon" width="12" height="12">
+                                                    <use href="./imgs/icons.svg#icon-circle"></use>
+                                                </svg>
+                                                стартапи
+                                            </p>
+                                        </li>
 
-                                    <li class="case">
-                                        <p class="case-name">
-                                            <svg class="case-icon" width="12" height="12">
-                                                <use href="./imgs/icons.svg#icon-circle"></use>
-                                            </svg>
-                                            фінансові та юридичні послуги
-                                        </p>
-                                    </li>
+                                        <li class="case-item">
+                                            <p class="case-name">
+                                                <svg class="case-icon" width="12" height="12">
+                                                    <use href="./imgs/icons.svg#icon-circle"></use>
+                                                </svg>
+                                                фінансові та юридичні послуги
+                                            </p>
+                                        </li>
 
-                                    <li class="case">
-                                        <p class="case-name">
-                                            <svg class="case-icon" width="12" height="12">
-                                                <use href="./imgs/icons.svg#icon-circle"></use>
-                                            </svg>
-                                            медичні послуги
-                                        </p>
-                                    </li>
+                                        <li class="case-item">
+                                            <p class="case-name">
+                                                <svg class="case-icon" width="12" height="12">
+                                                    <use href="./imgs/icons.svg#icon-circle"></use>
+                                                </svg>
+                                                медичні послуги
+                                            </p>
+                                        </li>
 
-                                    <li class="case">
-                                        <p class="case-name">
-                                            <svg class="case-icon" width="12" height="12">
-                                                <use href="./imgs/icons.svg#icon-circle"></use>
-                                            </svg>
-                                            бізнес-конференції
-                                        </p>
-                                    </li>
+                                        <li class="case-item">
+                                            <p class="case-name">
+                                                <svg class="case-icon" width="12" height="12">
+                                                    <use href="./imgs/icons.svg#icon-circle"></use>
+                                                </svg>
+                                                бізнес-конференції
+                                            </p>
+                                        </li>
 
-                                    <li class="case">
-                                        <p class="case-name">
-                                            <svg class="case-icon" width="12" height="12">
-                                                <use href="./imgs/icons.svg#icon-circle"></use>
-                                            </svg>
-                                            туристичні послуги
-                                        </p>
-                                    </li>
+                                        <li class="case-item">
+                                            <p class="case-name">
+                                                <svg class="case-icon" width="12" height="12">
+                                                    <use href="./imgs/icons.svg#icon-circle"></use>
+                                                </svg>
+                                                туристичні послуги
+                                            </p>
+                                        </li>
 
-                                    <li class="case">
-                                        <p class="case-name">
-                                            <svg class="case-icon" width="12" height="12">
-                                                <use href="./imgs/icons.svg#icon-circle"></use>
-                                            </svg>
-                                            сільськогосподарська продукція
-                                        </p>
-                                    </li>
-                                </ul>
+                                        <li class="case-item">
+                                            <p class="case-name">
+                                                <svg class="case-icon" width="12" height="12">
+                                                    <use href="./imgs/icons.svg#icon-circle"></use>
+                                                </svg>
+                                                сільськогосподарська продукція
+                                            </p>
+                                        </li>
+                                    </ul>
+                                </div>
                             </div>
 
-                            <button class="left-arrow controls-slider" type="button" aria-label="swipe to left slide">
-                                <svg class="arrow-left-icon" width="24" height="24">
-                                    <use href="./imgs/icons.svg#icon-arrow"></use>
-                                </svg>
-                            </button>
+                            <div class="swiper-slide slide">
+                                <div class="slide-content">
+                                    <h3 class="slider-title">150+ Інтернет-магазинів</h3>
 
-                            <button class="right-arrow controls-slider" type="button" aria-label="swipe to right slide">
-                                <svg class="arrow-right-icon" width="24" height="24">
-                                    <use href="./imgs/icons.svg#icon-arrow"></use>
-                                </svg>
-                            </button>
+                                    <ul class="cases-list list">
+                                        <li class="case-item">
+                                            <p class="case-name">
+                                                <svg class="case-icon" width="12" height="12">
+                                                    <use href="./imgs/icons.svg#icon-circle"></use>
+                                                </svg>
+                                                одяг та взуття
+                                            </p>
+                                        </li>
 
+                                        <li class="case-item">
+                                            <p class="case-name">
+                                                <svg class="case-icon" width="12" height="12">
+                                                    <use href="./imgs/icons.svg#icon-circle"></use>
+                                                </svg>
+                                                побутова техніка
+                                            </p>
+                                        </li>
+
+                                        <li class="case-item">
+                                            <p class="case-name">
+                                                <svg class="case-icon" width="12" height="12">
+                                                    <use href="./imgs/icons.svg#icon-circle"></use>
+                                                </svg>
+                                                косметика та парфумерія
+                                            </p>
+                                        </li>
+
+                                        <li class="case-item">
+                                            <p class="case-name">
+                                                <svg class="case-icon" width="12" height="12">
+                                                    <use href="./imgs/icons.svg#icon-circle"></use>
+                                                </svg>
+                                                електроніка
+                                            </p>
+                                        </li>
+
+                                        <li class="case-item">
+                                            <p class="case-name">
+                                                <svg class="case-icon" width="12" height="12">
+                                                    <use href="./imgs/icons.svg#icon-circle"></use>
+                                                </svg>
+                                                продукти харчування
+                                            </p>
+                                        </li>
+                                    </ul>
+                                </div>
+
+                            </div>
                         </div>
+
+                        <button class="left-arrow controls-slider" type="button" aria-label="swipe to prev slide">
+                            <svg class="arrow-icon" width="24" height="24">
+                                <use href="./imgs/icons.svg#icon-arrow"></use>
+                            </svg>
+                        </button>
+
+                        <button class="right-arrow controls-slider" type="button" aria-label="swipe to next slide">
+                            <svg class="arrow-icon arrow-right" width="24" height="24">
+                                <use href="./imgs/icons.svg#icon-arrow"></use>
+                            </svg>
+                        </button>
+
+                        <div class="swiper-scrollbar"><span class="visually-hidden">скроллбар</span></div>
                     </div>
                 </div>
             </section>
@@ -211,7 +277,7 @@
                 <div class="footer-top">
                     <div class="promo"><a href="index.html" class="logo-link logo-link-footer"
                             aria-label="Company logo with link to main page">
-                            <svg class="logo" width="169" height="20">
+                            <svg class="logo logo-icon-footer" width="169" height="20">
                                 <use href="./imgs/icons.svg#icon-logo"></use>
                             </svg>
                         </a>
@@ -220,14 +286,14 @@
                     </div>
 
                     <address class="contacts" id="contacts">
-                        <div>
+                        <div class="contacts-wrap">
                             <p class="contacts-subtitle">Адреса</p>
                             <p class="contacts-address">Київ, Україна <br>
                                 ТЦ Мармелад, вул. Борщагівська <br>
                                 154, офіс / блок 4-5</p>
                         </div>
 
-                        <div>
+                        <div class="contacts-wrap">
                             <p class="contacts-subtitle">Телефони</p>
 
                             <ul class="phones-list list">
@@ -244,7 +310,7 @@
                             </ul>
                         </div>
 
-                        <div>
+                        <div class="contacts-wrap">
                             <p class="contacts-subtitle">Месенджери</p>
 
                             <ul class="messengers-list list">
@@ -280,7 +346,7 @@
                                 title="linkedin" target="_blank" rel="noopener nofollow">
                                 <span class="visually-hidden">linkedin</span>
 
-                                <svg class="social-icon" width="19" height="19">
+                                <svg class="social-icon" width="19" height="18">
                                     <use href="./imgs/icons.svg#icon-linkedin"></use>
                                 </svg>
                             </a>
@@ -302,7 +368,7 @@
                                 title="facebook" target="_blank" rel="noopener nofollow">
                                 <span class="visually-hidden">facebook</span>
 
-                                <svg class="social-icon" width="19" height="19">
+                                <svg class="social-icon" width="11" height="19">
                                     <use href="./imgs/icons.svg#icon-facebook"></use>
                                 </svg>
                             </a>
@@ -313,6 +379,39 @@
         </footer>
     </div>
 
+    <div class="backdrop is-hidden" data-backdrop>
+
+        <div class="menu ">
+            <div class="header-menu">
+                <button class="close-menu-btn" type="button" aria-label="close menu" data-close-menu>
+                    <svg class="menu-icon" width="32" height="32">
+                        <use href="./imgs//icons.svg#icon-close"></use>
+                    </svg>
+                </button>
+
+                <a href="index.html" class="logo-link link" aria-label="Company logo with link to main page">
+                    <svg class="logo" width="306" height="36">
+                        <use href="./imgs/icons.svg#icon-logo"></use>
+                    </svg>
+                </a>
+            </div>
+
+            <nav class="main-nav">
+                <ul class="nav-list list">
+                    <li><a href="#about" class="nav-link link">Про нас</a></li>
+
+                    <li><a href="#cases" class="nav-link link">Кейси</a></li>
+
+                    <li><a href="#contacts" class="nav-link link">Контакти</a></li>
+                </ul>
+            </nav>
+        </div>
+
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="./js/script.js"></script>
+    <script src="./js/menu.js"></script>
 </body>
 
 </html>
