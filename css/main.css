@@ -1,12 +1,12 @@
-.header-wrap {
-  position: relative;
+.page-header {
+  position: absolute;
+  top: 10px;
+
+  width: 100%;
+  padding: 50px 0 40px;
 }
 
 .header-inner {
-  position: absolute;
-  top: 40px;
-  left: 0;
-
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -70,13 +70,13 @@
   fill: currentColor;
 }
 
+.header-order-btn {
+  display: none;
+}
+
 .hero {
   padding-top: 10px;
   padding-bottom: 35px;
-}
-
-.header-order-btn {
-  display: none;
 }
 
 .hero-wrap {
@@ -422,11 +422,15 @@
 }
 
 @media screen and (min-width: 1440px) {
-  .header-inner {
+  .page-header {
     top: 20px;
 
+    padding: 28px 0 28px;
+  }
+
+  .header-inner {
     align-items: flex-start;
-    padding: 28px;
+    padding: 0 28px;
   }
 
   .header-menu-btn {
