@@ -49,7 +49,7 @@ git clone https://github.com/A-Novychenko/commit.git
 
 ---
 
-## Contacts
+## Контакти
 
 Oleksandr Novychenko
 
